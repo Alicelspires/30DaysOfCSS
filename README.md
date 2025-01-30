@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="">
+  <img width="100px" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenl4OHQyeHVqZng4cWR6cjNzMjU2cmdlcmk5anYwcWFweXljazBzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fsEaZldNC8A1PJ3mwp/giphy.gif">
   
   # 30DaysCSS
   Completing 30 CSS project challenges in 30 days
