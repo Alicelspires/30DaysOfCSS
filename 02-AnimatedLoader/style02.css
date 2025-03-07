@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Nova+Round&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sen:wght@400..800&family=Varela+Round&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family:"Roboto Mono", serif;
+}
+:root{
+    --font-color:#f0f0f0;
+    --bg-color:#023047;
+    --loading-color01:#FFB703;
+    --loading-color02:#219EBC;
+    --loading-color03:#CCFF33;
+    --font-size: 1.5rem;
+}
+body{
+    background-color: var(--bg-color);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100vh;
+}
+.ring{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border-color: #001b19b2;
+    animation: ring linear 2s infinite;
+}
+.ring::before{
+    position: absolute;
+    content:'';
+    height:100%;
+    width: 100%;
+}
+@keyframes ring{
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 6px var(--loading-color01);
+    }
+    50%{
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 6px var(--loading-color02);
+    }
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 6px var(--loading-color03);
+    }
+}
+
+span{
+    color:var(--font-color);
+    font-size:var(--font-size);
+    animation: text 3s ease-in-out infinite;
+}
+@keyframes text{
+    0%{
+        color:var(--bg-color);
+    }
+}
