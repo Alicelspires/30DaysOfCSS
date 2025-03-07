@@ -1,4 +1,4 @@
-![Passingthroughdivs](https://github.com/user-attachments/assets/42860e70-7eab-48b4-820f-df815cee5d09)<div align="center">
+<div align="center">
   <img width="100px" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenl4OHQyeHVqZng4cWR6cjNzMjU2cmdlcmk5anYwcWFweXljazBzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fsEaZldNC8A1PJ3mwp/giphy.gif">
   
   # 30DaysCSS
