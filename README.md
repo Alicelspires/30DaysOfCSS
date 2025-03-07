@@ -22,22 +22,22 @@ n°  | Challenges
 2   | [Day 02 - Animated loader](#id02)
 3   | [Day 03 - Layered social media icon](#id03)
 4   | [Day 04 - Toggle color change](#id04)
-5   | [Day 05 - Music sound](#id05)
+5   | [Day 05 - Loading Animation](#id05)
 6   | [Day 06 - Animation hover navbar](#id06)
 7   | [Day 07 - Typewriter](#id07)
 8   | [Day 08 - Animated menu](#id08)
 9   | [Day 09 - Water effect](#id09)
 10  | [Day 10 - Fireworks](#id10)
 11  | [Day 11 - Animated search box](#id11)
-12  | [Day 12 - Button effect part 01](#id12)
+12  | [Day 12 - Neon Button](#id12)
 13  | [Day 13 - Lighting text effect](#id13)
 14  | [Day 14 - Pulsing effect](#id14)
 15  | [Day 15 - Preloader animation](#id15)
 16  | [Day 16 - Floating text](#id16)
-17  | [Day 17 - Button effect part 02](#id17)
-18  | [Day 18 - Floating particle effect](#id18)
-19  | [Day 19 - Bouncing spheres](#id19)
-20  | [Day 20 - Icon effects](#id20)
+17  | [Day 17 - Button effect](#id17)
+18  | [Day 18 - Floating Leaves effect](#id18)
+19  | [Day 19 - Disc aligment](#id19)
+20  | [Day 20 - Square of dots](#id20)
 21  | [Day 21 - Preloader squares animation](#id21)
 22  | [Day 22 - Responsive menu with media queries](#id22)
 23  | [Day 23 - Icon background effect](#id23)
@@ -51,12 +51,11 @@ n°  | Challenges
 
 ## Title <a name="id01"></a>
 
-- [My Code]()
-- [Post LinkedIn]() 
+- [My Code]() 
 
 ### What I learned:
 
--
--
+- Animation using @keyframes and the transform() properties
+- New features such as white spacing and absolute positions
 
 <br>
