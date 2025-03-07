@@ -63,3 +63,19 @@ n°  | Challenges
 - New features such as white spacing and absolute positions
 
 <br>
+
+## Day 02 - Animated loader <a name="id02"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/AnimatedLoader.gif" alt="Animated loader">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysCSS/tree/main/02-AnimatedLoader) 
+
+### What I learned:
+
+- Animations
+- Transform properties such as rotate()
+- Absolute positions
+
+<br>
