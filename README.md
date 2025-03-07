@@ -1,4 +1,4 @@
-<div align="center">
+![Passingthroughdivs](https://github.com/user-attachments/assets/42860e70-7eab-48b4-820f-df815cee5d09)<div align="center">
   <img width="100px" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenl4OHQyeHVqZng4cWR6cjNzMjU2cmdlcmk5anYwcWFweXljazBzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fsEaZldNC8A1PJ3mwp/giphy.gif">
   
   # 30DaysCSS
@@ -49,9 +49,9 @@ n°  | Challenges
 29  | [Day 29 - Year cube](#id29)
 30  | [Day 30 - Floating lighting cube](#id30)
 
-## Title <a name="id01"></a>
+## Day 01 - Passing through divs <a name="id01"></a>
 
-- [My Code]() 
+- [My Code](https://github.com/Alicelspires/30DaysCSS/tree/main/01-PassingThroughDivs) 
 
 ### What I learned:
 
