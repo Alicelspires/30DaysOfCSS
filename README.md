@@ -51,6 +51,10 @@ n°  | Challenges
 
 ## Day 01 - Passing through divs <a name="id01"></a>
 
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/Passingthroughdivs.gif" alt="Passing through divs">
+</div>
+
 - [My Code](https://github.com/Alicelspires/30DaysCSS/tree/main/01-PassingThroughDivs) 
 
 ### What I learned:
