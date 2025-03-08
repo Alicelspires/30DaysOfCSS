@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-color: #222;
+    overflow: hidden;
+    width:100%;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    transform: rotate(-30deg) skew(25deg);
+    gap:40px;
+    margin:30px 0;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style: none;
+    width: 100px;
+    height:100px;
+    position: relative;
+
+}
+ul li:before{
+    bottom:-18px;
+    background: #0a0a0a;
+    content:'';
+    position: absolute;
+    left:0;
+    width:100%;
+    height:18px;
+    transform-origin: top;
+    transform:skewX(-45deg);
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:5px;
+}
+ul li:after{
+    left:-19px;
+    background: #131313;
+    content:'';
+    position: absolute;
+    top:0;
+    width:19px;
+    height:100%;
+    transform-origin: right;
+    transform:skewY(-41deg);
+    border-bottom-left-radius:20%;
+    border-top-left-radius:5px;
+    z-index: -1;
+}
+
+ul li span{
+    display: flex;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: #272727;
+    color: #696969;
+    font-size: 50px !important;
+}
+
+ul li:hover span{
+    box-shadow: -1px 1px 2px 2px rgba(0,0,0,.1);
+    border-radius: 10px;
+    z-index: 1000;
+}
+ul li:hover span:nth-child(5){
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+ul li:hover span:nth-child(4){
+    transform: translate(30px, -30px);
+    opacity: .8;
+}
+ul li:hover span:nth-child(3){
+    transform: translate(20px, -20px);
+    opacity: .6;
+}
+ul li:hover span:nth-child(2){
+    transform: translate(10px, -10px);
+    opacity: .4;
+}
+ul li:hover span:nth-child(1){
+    opacity: .2;
+    z-index: 10;
+}
+ul li:nth-child(1):hover span{
+    background-color: rgb(0, 214, 214);
+    color:#fff;
+}
+ul li:nth-child(2):hover span{
+    background-color: rgb(0, 214, 46);
+    color:#fff;
+}
+ul li:nth-child(3):hover span{
+    background-color: rgb(210, 214, 0);
+    color:#fff;
+}
+ul li:nth-child(4):hover span{
+    background-color: rgb(0, 39, 214);
+    color:#fff;
+}
+ul li:nth-child(5):hover span{
+    background-color: rgb(93, 0, 214);
+    color:#fff;
+}
