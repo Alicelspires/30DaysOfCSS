@@ -8,7 +8,8 @@
 
 ## About
 
-This project was created by <a href="https://github.com/MilenaCarecho/30diasDeCSS" >MilenaCarecho</a> which aims to improve the knowledge of CSS animations and effects without any framework.
+This project was created by <a href="https://github.com/MilenaCarecho/30diasDeCSS" >MilenaCarecho</a> which aims to improve the knowledge of CSS animations and effects without any framework. <br>
+Some of the ideas was from playlists of <a href="https://www.youtube.com/playlist?list=PL5e68lK9hEzcZLltZrc3NDlKWS3XygchY"> CSS animation effects </a> , thanks for all the help!
 
 ## Goal
 
