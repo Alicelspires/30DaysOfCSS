@@ -79,3 +79,20 @@ n°  | Challenges
 - Absolute positions
 
 <br>
+
+## Day 03 - Layered Icons <a name="id03"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/LayeredSocialMediaIcons.gif" alt="Animated loader">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysCSS/tree/main/03-LayeredIcons) 
+
+### What I learned:
+
+- :nth-child()
+- Transform properties such as rotate(), skew() and translate()
+- Absolute positions
+- ::before and ::after
+
+<br>
