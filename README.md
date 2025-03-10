@@ -1,7 +1,7 @@
 <div align="center">
   <img width="100px" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenl4OHQyeHVqZng4cWR6cjNzMjU2cmdlcmk5anYwcWFweXljazBzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fsEaZldNC8A1PJ3mwp/giphy.gif">
   
-  # 30DaysCSS
+  # 30DaysOfCSS
   Completing 30 CSS project challenges in 30 days
 
 </div>
@@ -95,5 +95,40 @@ n°  | Challenges
 - Transform properties such as rotate(), skew() and translate()
 - Absolute positions
 - ::before and ::after
+
+<br>
+
+## Day 04 - Toggle color change <a name="id04"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/ToggleColorChange.gif" alt="Toggle color change">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysCSS/tree/main/04-ToggleColorChange)
+
+### What I learned:
+
+- :checked
+- General sibling selectors (~)
+- Cubic-benzier
+- Work with a lot of shadows to achieve an amazing effect
+- ::before and ::after
+- Transitions
+
+<br>
+
+## Day 05 - Loading Animation <a name="id05"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/Loadinganimation.gif" alt="Loading Animation">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysCSS/tree/main/05-LoadingAnimation) 
+
+### What I learned:
+
+- :nth-child()
+- Transform properties such as scale()
+- Animation delay
 
 <br>
