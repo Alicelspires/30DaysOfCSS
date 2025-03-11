@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Nova+Round&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sen:wght@400..800&family=Varela+Round&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: "Quicksand", serif;
+    font-weight:600;
+}
+:root{
+    --bg-color:linear-gradient(140deg, #a4ff6f 0%, #275af5 100%);
+    --bg-nav:#181818;
+    --lines:linear-gradient(180deg, #a6cf8f 0%, #52a025 100%);
+    --bar:#799aff;
+}
+
+body{
+    background: var(--bg-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap:40px;
+}
+
+/* First navbar animation ---------------------------- */
+
+.lines{
+    background-color:var(--bg-nav) ;
+    color:#fff;
+    padding:20px 30px;
+    border-radius:10px;
+    box-shadow: 0px 0px 30px -8px rgb(0, 0, 0);
+}
+.lines ul{
+    display:flex;
+    flex-direction: row;
+    gap:25px;
+}
+.lines ul li{
+    position: relative;
+    padding: 10px 0
+}
+.lines ul li:before{
+    content:'';
+    height:3px;
+    width:0%;
+    bottom:0;
+    left:0;
+    position:absolute;
+    background: var(--lines);
+    box-shadow: 0px 0px 10px 0px #ffffff;
+    transition: all .4s ease;
+}
+.lines ul li:hover:before{
+    width:100%;
+    border-radius:5px;
+}
+
+.lines ul li:nth-child(1):before{
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.lines ul li:nth-child(2):before{
+    width:100%;
+    opacity: 0;
+    bottom:-5px;
+}
+.lines ul li:nth-child(2):hover:before{
+    opacity: 1;
+    bottom:0;
+}
+
+.lines ul li:nth-child(4):before{
+    width:100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+}
+.lines ul li:nth-child(4):hover:before{
+    width:100%;
+    border-radius:5px;
+    transform-origin: left;
+    transform:scaleX(1);
+}
+
+/* Second navbar animation --------------------------- */
+.icons{
+    background-color:var(--bg-nav) ;
+    color:#fff;
+    padding:40px;
+    border-radius:10px;
+    box-shadow: 0px 0px 30px -8px rgb(0, 0, 0);
+}
+.icons ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    position: relative;
+}
+.icons ul li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    position: relative;
+}
+/* First icon ---------------------- */
+.icons ul li:nth-child(1):before{
+    content:'';
+    height:28px;
+    top:-13px;
+    left:8px;
+    width:3.5px;
+    border-radius:10px;
+    background:#ffffff;
+    position: absolute;
+    transition:  all .2s;
+    transition-delay: .1s;
+    opacity: 0;
+}
+.icons ul li:nth-child(1):after{
+    content:'';
+    height:28px;
+    top:-13px;
+    right:8px;
+    width:3.5px;
+    border-radius:10px;
+    background:#ffffff;
+    position: absolute;
+    transition:  all .2s;
+    transition-delay: .1s;
+    opacity: 0;
+}
+.icons ul li:nth-child(1):hover:before{
+    transform: translateX(-25px) translateY(-2px);
+}
+.icons ul li:nth-child(1):hover:after{
+    transform: translateX(25px) translateY(-2px);
+}
+.icons ul li:nth-child(1):hover:before,
+.icons ul li:nth-child(1):hover:after,
+.icons ul li:nth-child(1):hover{
+    background-color:var(--bar);
+    box-shadow: 0px 0px 10px 1px #ffffff;
+    opacity: 1;
+    color:var(--bar);
+}
+
+
+/* Second icon ---------------------- */
+
+.icons ul li:nth-child(2):before{
+    content:'';
+    width:210%;
+    top:-25px;
+    height:3.5px;
+    border-radius:10px;
+    background:#ffffff;
+    position: absolute;
+    transition: .3s;
+    opacity: 1;
+}
+.icons ul li:nth-child(2):after{
+    content:'';
+    height:0px;
+    top:-14px;
+    left:-15px;
+    width:3.5px;
+    border-radius:10px;
+    background:#ffffff;
+    position: absolute;
+    transition: .3s;
+    opacity: 0;
+}
+.icons ul li:nth-child(2):hover:before{
+    top:20px;
+    opacity: 0;
+    background-color:var(--bar);
+    box-shadow: 0px 0px 10px 1px #ffffff;
+
+}
+.icons ul li:nth-child(2):hover:after{
+    opacity: 1;
+    height:28px;
+    background-color:var(--bar);
+    box-shadow: 0px 0px 10px 1px #ffffff;
+
+}
+.icons ul li:nth-child(2):hover{
+    color:var(--bar);
+}
+
+
+/* Third icon ---------------------- */
+
+.icons ul li:nth-child(3):before{
+    content:'';
+    height:28px;
+    top:-14px;
+    left:-15px;
+    width:3.5px;
+    border-radius:10px;
+    background:#ffffff;
+    position: absolute;
+    transition: .3s;
+}
+.icons ul li:nth-child(3):after{
+    content:'';
+    height:28px;
+    top:-14px;
+    right:-15px;
+    width:3.5px;
+    border-radius:10px;
+    background:#ffffff;
+    position: absolute;
+    transition: .3s;
+    transform-origin: 100% 0;
+}
+.icons ul li:nth-child(3):hover:before{
+    transform:  rotate(-90deg) translateY(80%);
+    top:-37px;
+    left:-15px;
+    background-color: var(--bar);
+    box-shadow: 0px 0px 10px 1px #ffffff;
+
+}
+.icons ul li:nth-child(3):hover:after{
+    transform:  rotate(-90deg) translateY(-80%);
+    top:20px;
+    right:2px;
+    background-color: var(--bar);
+    box-shadow: 0px 0px 10px 1px #ffffff;
+
+}
+.icons ul li:nth-child(3):hover{
+    color:var(--bar);
+}
+
+/* Forth icon animation ------------------ */
+.icons ul li:nth-child(4):before{
+    content:'';
+    width:7px;
+    height:7px;
+    border-radius:50px;
+    background-color: #fff;
+    position: absolute;
+    font-size:2rem;
+    transition:  all .3s;
+    transition-delay: .1s;
+    transform:translateY(20px);
+    opacity: 0;
+}
+.icons ul li:nth-child(4):hover{
+    transform:translateY(-10px);
+    color: var(--bar);
+}
+.icons ul li:nth-child(4):hover:before{
+    transition-delay: .2s;
+    transform:translateY(28px);
+    opacity: 1;
+    background-color: var(--bar);
+    box-shadow: 0px 0px 8px 2px #ffffff;
+}
