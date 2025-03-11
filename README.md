@@ -132,3 +132,22 @@ n°  | Challenges
 - Animation delay
 
 <br>
+
+## Day 06 - Animation Hover Navbar <a name="id06"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/AnimationHoverNavbar.gif" alt="Animation Hover Navbar">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/06-AnimationHoverNavbar)
+
+### What I learned:
+
+- :nth-child()
+- Transform properties such as scale()
+- Transitions
+- Transform-delay
+- ::before and ::after
+- Absolute positions
+
+<br>
