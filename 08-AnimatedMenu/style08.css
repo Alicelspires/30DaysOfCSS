@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --shadow01:#000;
+    --shadow02: #070a1b;
+    --shadow03:#fff;
+    --btn-color:  #1823bd;
+    --bg-color: #000322;
+    --icons-color:
+    #ffffff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+input {
+    display: none;
+}
+
+/* Botão central */
+.toggle-btn {
+    z-index: 1;
+    transform: rotate(-225deg);
+}
+
+/* Estilização dos botões */
+.btn,
+.toggle-btn {
+    width: 80px;
+    height: 80px;
+    background-color: var(--btn-color);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: var(--icons-color);
+    box-shadow:
+        -2px -2px 25px 0px var(--shadow01),
+        2px 2px 20px -15px var(--shadow03),
+        5px 5px 25px -5px var(--shadow02) inset;
+    cursor: pointer;
+    position: absolute;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.btn {
+    transform: rotate((360deg / 7));
+    box-shadow:none;
+}
+
+#menu:checked + label .btn{
+    box-shadow:
+        -2px -2px 25px 0px var(--shadow01),
+        2px 2px 20px -15px var(--shadow03),
+        5px 5px 25px -5px var(--shadow02) inset;
+    transform: rotate(calc(var(--index) * (360deg / 7))) translate(120px);
+    
+}
+
