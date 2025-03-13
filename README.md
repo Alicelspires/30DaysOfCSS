@@ -151,3 +151,18 @@ n°  | Challenges
 - Absolute positions
 
 <br>
+
+## Day 07 - Typewriter <a name="id07"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/Typewritter.gif" alt="Typewriter">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/07-Typewriter)
+
+### What I learned:
+
+- :nth-child()
+- Animations
+
+<br>
