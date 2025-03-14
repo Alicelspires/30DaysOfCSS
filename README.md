@@ -166,3 +166,21 @@ n°  | Challenges
 - Animations
 
 <br>
+
+## Day 08 - Animated Menu <a name="id08"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/AnimatedMenu.gif" alt="Animated Menu">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/08-AnimatedMenu)
+
+### What I learned:
+
+- :nth-child()
+- Animations
+- Transform properties such as rotate()
+- Transitions
+- Absolute positions
+
+<br>
