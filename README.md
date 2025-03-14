@@ -184,3 +184,20 @@ n°  | Challenges
 - Absolute positions
 
 <br>
+
+## Day 09 - Water Effect <a name="id08"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/WaterEffect.gif" alt="Water Effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/09-WaterEffect)
+
+### What I learned:
+
+- ::before and ::after
+- Animations
+- Transform properties such as rotate() and translate()
+- Absolute positions
+
+<br>
