@@ -201,3 +201,37 @@ n°  | Challenges
 - Absolute positions
 
 <br>
+
+## Day 10 - Fireworks <a name="id10"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/Fireworks.gif" alt="Water Effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/10-Fireworks)
+
+### What I learned:
+
+- ::before and ::after
+- @Keyframes
+- Transform properties such as rotate() and translate()
+- Absolute positions
+- Usage of calc() and var() functions
+
+<br>
+
+## Day 11 - Animated Search Box <a name="id11"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/AnimatedSearchBox.gif" alt="Water Effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/11-AnimatedSearchBox)
+
+### What I learned:
+
+- Transitions
+- hovers
+- Absolute positions
+
+<br>
