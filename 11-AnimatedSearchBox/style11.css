@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --bg-color:#264653;
+    --font-h1-color:#4BFFE9;
+    --border-color:#F4A261;
+    --font-text:#fff;
+    --placeholder-color:#fff;
+    --font-size01:2rem;
+    --font-size02:1.1rem;
+    --font-size03:1rem;
+}
+body{
+    background-color: var(--bg-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    font-family: "Quicksand", serif;
+    color:var(--font-text)
+}
+h1{
+    color:var(--font-h1-color)
+}
+input{
+    background-color: transparent;
+    border:none;
+    outline: none; 
+    color:var(--font-text);
+    padding:10px;
+    font-size:1.1rem;
+    width:0px;
+    height:0;
+    position: absolute;
+}
+span.search{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(233, 197, 106, 0.18);
+    padding:10px 10px;
+    border-radius:50px;
+    border:5px solid var(--border-color);
+    overflow: hidden;
+    cursor:pointer;
+    width:25px;
+    gap:8px;
+    transition: all .7s ease;
+}
+span.search:hover{
+    width:300px;
+}
+span.search:hover > input[type="text"]{
+    width:250px;
+    position: relative;
+    transition: all .7s ease-in-out;
+}
+::-webkit-input-placeholder {
+    color:var(--placeholder-color);
+}
+ 
+::-moz-placeholder {
+    color: var(--placeholder-color)
+}
+
+:-ms-input-placeholder {  
+    color: var(--placeholder-color); 
+}
+.text{
+    text-align: center;
+}
+.text p{
+    width:270px;
+    margin:10px 0px 30px 0px
+}
