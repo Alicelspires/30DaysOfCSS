@@ -235,3 +235,20 @@ n°  | Challenges
 - Absolute positions
 
 <br>
+
+## Day 12 - Neon button <a name="id12"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/NeonButton.gif" alt="Water Effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/12-NeonButton)
+
+### What I learned:
+
+- Transitions
+- hovers
+- Absolute positions
+- :nth-child()
+
+<br>
