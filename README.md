@@ -252,3 +252,19 @@ n°  | Challenges
 - :nth-child()
 
 <br>
+
+## Day 13 - Lightining Text Effect <a name="id13"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/LightingTextEffect.gif" alt="Water Effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/13-LightingTextEffect)
+
+### What I learned:
+
+- @keyframes
+- Absolute positions
+- :nth-child()
+
+<br>
