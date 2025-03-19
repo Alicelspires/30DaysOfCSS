@@ -268,3 +268,22 @@ n°  | Challenges
 - :nth-child()
 
 <br>
+
+## Day 14 - Pulsing Effect <a name="id14"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/PulsingEffect.gif" alt="Water Effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/14-PulsingeEffect)
+
+### What I learned:
+
+- @keyframes
+- Transitions
+- Absolute positions
+- ::before and ::after
+- Animation
+- Transform properties such as skew() and scale()
+
+<br>
