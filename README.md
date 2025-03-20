@@ -205,7 +205,7 @@ n°  | Challenges
 ## Day 10 - Fireworks <a name="id10"></a>
 
 <div align="center">
-  <img width="600px" height="auto" src="./gifs/Fireworks.gif" alt="Water Effect">
+  <img width="600px" height="auto" src="./gifs/Fireworks.gif" alt="Fireworks">
 </div>
 
 - [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/10-Fireworks)
@@ -223,7 +223,7 @@ n°  | Challenges
 ## Day 11 - Animated Search Box <a name="id11"></a>
 
 <div align="center">
-  <img width="600px" height="auto" src="./gifs/AnimatedSearchBox.gif" alt="Water Effect">
+  <img width="600px" height="auto" src="./gifs/AnimatedSearchBox.gif" alt="Animated Search box">
 </div>
 
 - [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/11-AnimatedSearchBox)
@@ -239,7 +239,7 @@ n°  | Challenges
 ## Day 12 - Neon button <a name="id12"></a>
 
 <div align="center">
-  <img width="600px" height="auto" src="./gifs/NeonButton.gif" alt="Water Effect">
+  <img width="600px" height="auto" src="./gifs/NeonButton.gif" alt="Neon Button">
 </div>
 
 - [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/12-NeonButton)
@@ -256,7 +256,7 @@ n°  | Challenges
 ## Day 13 - Lightining Text Effect <a name="id13"></a>
 
 <div align="center">
-  <img width="600px" height="auto" src="./gifs/LightingTextEffect.gif" alt="Water Effect">
+  <img width="600px" height="auto" src="./gifs/LightingTextEffect.gif" alt="Lighting Text Effect">
 </div>
 
 - [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/13-LightingTextEffect)
@@ -272,7 +272,7 @@ n°  | Challenges
 ## Day 14 - Pulsing Effect <a name="id14"></a>
 
 <div align="center">
-  <img width="600px" height="auto" src="./gifs/PulsingEffect.gif" alt="Water Effect">
+  <img width="600px" height="auto" src="./gifs/PulsingEffect.gif" alt="Pulsing Effect">
 </div>
 
 - [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/14-PulsingeEffect)
@@ -285,5 +285,23 @@ n°  | Challenges
 - ::before and ::after
 - Animation
 - Transform properties such as skew() and scale()
+
+<br>
+
+## Day 15 - Preloader Animation <a name="id15"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/PreloaderAnimation.gif" alt="Preloader Animation">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/15-PreloaderAnimation)
+
+### What I learned:
+
+- @keyframes
+- Animation delays
+- Absolute positions
+- :nth-child()
+- Transform properties such as translate()
 
 <br>
