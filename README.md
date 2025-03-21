@@ -305,3 +305,20 @@ n°  | Challenges
 - Transform properties such as translate()
 
 <br>
+
+## Day 16 - Floating Text <a name="id16"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/FloatingText.gif" alt="Floating Text">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/16-FloatingText)
+
+### What I learned:
+
+- @keyframes
+- Animation delays
+- calc() and var() properties
+- Transform properties such as translate()
+
+<br>
