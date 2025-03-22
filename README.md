@@ -322,3 +322,19 @@ n°  | Challenges
 - Transform properties such as translate()
 
 <br>
+
+## Day 17 - Button Effect <a name="id17"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/ButtonEffectPart02.gif" alt="Button effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/17-ButtonEffect)
+
+### What I learned:
+
+- :hover
+- Transform properties such as translate() and skew()
+- Absolute position
+
+<br>
