@@ -342,7 +342,7 @@ n°  | Challenges
 ## Day 18 - Floating Leaves Effect <a name="id18"></a>
 
 <div align="center">
-  <img width="600px" height="auto" src="./gifs/FloatingLeavesEffect.gif" alt="Button effect">
+  <img width="600px" height="auto" src="./gifs/FloatingLeavesEffect.gif" alt="Floating Leaves Effect">
 </div>
 
 - [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/18-FloatingLeavesEffect)
