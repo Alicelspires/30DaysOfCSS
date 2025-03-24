@@ -338,3 +338,22 @@ n°  | Challenges
 - Absolute position
 
 <br>
+
+## Day 18 - Floating Leaves Effect <a name="id18"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/FloatingLeavesEffect.gif" alt="Button effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/18-FloatingLeavesEffect)
+
+### What I learned:
+
+- @keyframes
+- :nth-child()
+- Transform properties such as translate(), skew() and rotate()
+- Absolute position
+- Animation-delay
+- Filter blur()
+
+<br>
