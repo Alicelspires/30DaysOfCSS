@@ -357,3 +357,22 @@ n°  | Challenges
 - Filter blur()
 
 <br>
+
+## Day 19 - Disc Aligment <a name="id19"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/DiscAlignment.gif" alt="Disc Aligment">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/19-DiscAlignment)
+
+### What I learned:
+
+- @keyframes
+- :nth-child()
+- Transform properties such as rotate()
+- Absolute position
+- Animation-delay
+- cubic-benzier()
+
+<br>
