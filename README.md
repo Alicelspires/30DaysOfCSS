@@ -376,3 +376,42 @@ n°  | Challenges
 - cubic-benzier()
 
 <br>
+
+## Day 20 - Square of Dots <a name="id20"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/SquareofDots.gif" alt="Square of Dots">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/20-SquareOfDots)
+
+### What I learned:
+
+- @keyframes
+- calc() and var() properties
+- Transform properties such as scale()
+- Animation-delay
+
+<br>
+
+## Day 21 - Pile of Blocks <a name="id21"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/Pileofblocks.gif" alt="Pile of blocks">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/21-PileOfBlocks)
+
+### What I learned:
+
+- @keyframes
+- Transform properties such as translate() and skew()
+- Absolute position
+- Animation-delay
+- Filter hue-rotate()
+- calc() and var() properties
+- Transform-origem
+- :nth-child()
+- ::before and ::after
+
+<br>
