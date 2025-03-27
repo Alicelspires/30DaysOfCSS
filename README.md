@@ -415,3 +415,18 @@ n°  | Challenges
 - ::before and ::after
 
 <br>
+
+## Day 22 - Responsive Menu Media Queries <a name="id22"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/ResponsiveMenuMediaQueries.gif" alt="Responsive Menu Media Query">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/22-ResponsiveMenuMediaQueries)
+
+### What I learned:
+
+- @keyframes
+- @media()
+
+<br>
