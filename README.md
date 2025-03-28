@@ -430,3 +430,19 @@ n°  | Challenges
 - @media()
 
 <br>
+
+## Day 23 - Icon Background Effect <a name="id23"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/IconBackgroundEffect.gif" alt="Responsive Menu Media Query">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/23-IconBackgroundEffect)
+
+### What I learned:
+
+- @keyframes
+- Animation-delay
+- Transform properties such as skew(), rotate() and translate()
+
+<br>
