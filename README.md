@@ -434,7 +434,7 @@ n°  | Challenges
 ## Day 23 - Icon Background Effect <a name="id23"></a>
 
 <div align="center">
-  <img width="600px" height="auto" src="./gifs/IconBackgroundEffect.gif" alt="Responsive Menu Media Query">
+  <img width="600px" height="auto" src="./gifs/IconBackgroundEffect.gif" alt="Icon Background Effect">
 </div>
 
 - [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/23-IconBackgroundEffect)
@@ -444,5 +444,23 @@ n°  | Challenges
 - @keyframes
 - Animation-delay
 - Transform properties such as skew(), rotate() and translate()
+
+<br>
+
+## Day 24 - 3D Rotating Square <a name="id24"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/3DRotatingSquare.gif" alt="3D Rotating Square">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/24-3DRotatingSquare)
+
+### What I learned:
+
+- @keyframes
+- Animation-delay
+- Transform properties such as rotate()
+- nth-child()
+- ::before and ::after
 
 <br>
