@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=Dangrek&family=Meie+Script&family=The+Nautigal:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Dangrek", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    height:100vh;
+    background-color: #000;
+}
+.center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    color:#fff;
+    font-size: 9.5rem;
+    font-weight: 900;
+    letter-spacing: 8px;
+    filter: blur(1px);
+    display: flex;
+    align-items: center;
+}
+ul li:nth-child(3){
+   padding-right: 25px;
+}
+ul li:nth-child(5){
+    padding-right: 25px;
+ }
+ul:hover li{
+    animation: animate 2s linear forwards;
+    animation-delay: calc(var(--i)*1s);
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg) translateY(0px);
+        opacity: 1;
+        filter: blur(1px);
+    }
+    100%{
+        transform: rotate(45deg) translateY(-200px);
+        opacity: 0;
+        filter: blur(20px);
+    }
+}
