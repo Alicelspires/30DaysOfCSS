@@ -464,3 +464,23 @@ n°  | Challenges
 - ::before and ::after
 
 <br>
+
+<br>
+
+## Day 25 - Particles Distorcion Effect <a name="id25"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/ParticlesDistorcionEffect.gif" alt="Particles Distorcion Effect">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/25-ParticlesDistorcionEffect)
+
+### What I learned:
+
+- @keyframes
+- Animation-delay
+- Transform properties such as rotate() and translate()
+- nth-child()
+- filter
+
+<br>
