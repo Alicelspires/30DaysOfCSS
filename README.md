@@ -465,8 +465,6 @@ n°  | Challenges
 
 <br>
 
-<br>
-
 ## Day 25 - Particles Distorcion Effect <a name="id25"></a>
 
 <div align="center">
@@ -482,5 +480,42 @@ n°  | Challenges
 - Transform properties such as rotate() and translate()
 - nth-child()
 - filter
+
+<br>
+
+## Day 26 - Rotating Animation Squares <a name="id26"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/RotatingAnimationSquares.gif" alt="Rotating Animation Squares">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/26-RotatingAnimationSquares)
+
+### What I learned:
+
+- @keyframes
+- Transform properties such as rotate(), translate() and perpective()
+- Tranform-style: preserve-3d;
+- nth-child()
+- filter blur()
+
+<br>
+
+## Day 27 - Share Buttons Tootip <a name="id27"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/ShareButtonTooltip.gif" alt="Share Buttons Tootip">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/27-ShareButtonTooltip)
+
+### What I learned:
+
+- @keyframes
+- Transition
+- Transform properties such as translate()
+- nth-child()
+- ::before and ::after
+- :checked and :hover
 
 <br>
