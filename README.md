@@ -519,3 +519,20 @@ n°  | Challenges
 - :checked and :hover
 
 <br>
+
+## Day 28 - Social Media Button Hover <a name="id28"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/SocialMediaButtonsHover.gif" alt="Social Media Button Hover">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/blob/main/28-SocialMediaButtonsHover/style28.css)
+
+### What I learned:
+
+- Transition
+- nth-child()
+- :hover
+- Functions like var() features
+
+<br>
