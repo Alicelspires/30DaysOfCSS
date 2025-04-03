@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --bg-color:#b3b3b3;
+    --linkedIn:rgb(26, 99, 255);
+    --portfolio:#47338f;
+    --github:#1d1d1d;
+    --email:rgb(255, 128, 24);
+    --bg-icon-nohover:#ffffff;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: var(--bg-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: "Quicksand", serif;
+}
+
+.wrapper .button{
+    height:60px;
+    width:60px;
+    margin:0 5px;
+    float: left;
+    background-color:var(--bg-icon-nohover);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow:0px 0px 10px -1px #ffffff;
+    transition: all .5s ease-out;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.wrapper .button:hover{
+    width:200px;
+}
+
+.wrapper .button .icon{
+    display:inline-block;
+    height:60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: all .5s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background-color:var(--linkedIn);
+    box-shadow:
+                10px 0px 20px var(--linkedIn),
+                0px 0px 5px var(--linkedIn);
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background-color:var(--portfolio) ;
+    box-shadow:
+                10px 0px 20px var(--portfolio),
+                0px 0px 5px var(--portfolio);
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background-color:var(--github) ;
+    box-shadow:
+                10px 0px 20px var(--github),
+                0px 0px 5px var(--github);
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background-color:var(--email);
+    box-shadow:
+                10px 0px 20px var(--email),
+                0px 0px 5px var(--email);
+}
+
+.wrapper .button .icon i{
+    font-size:1.8rem;
+    line-height: 60px;
+}
+.wrapper .button:hover .icon i{
+    color:#fff;
+}
+.wrapper .button span{
+    font-size:1.4rem;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left:20px;
+    transition: all .5s ease-out;
+}
+
+.wrapper .button:nth-child(1) span{
+    color:var(--linkedIn);
+}
+.wrapper .button:nth-child(2) span{
+    color:var(--portfolio);
+}
+.wrapper .button:nth-child(3) span{
+    color:var(--github);
+}
+.wrapper .button:nth-child(4) span{
+    color:var(--email);
+}
