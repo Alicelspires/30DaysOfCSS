@@ -536,3 +536,21 @@ n°  | Challenges
 - Functions like var() features
 
 <br>
+
+## Day 29 - Year Cube <a name="id29"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/YearCube.gif" alt="Year Cube">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/29-YearCube)
+
+### What I learned:
+
+- Functions like var() and calc() features
+- Transform properties such as rotate() and translate()
+- Tranform-style: preserve-3d;
+- last-child()
+- filter blur()
+
+<br>
