@@ -554,3 +554,22 @@ n°  | Challenges
 - filter blur()
 
 <br>
+
+## Day 30 - Floating lighting cube<a name="id30"></a>
+
+<div align="center">
+  <img width="600px" height="auto" src="./gifs/Floatinglightingcube.gif" alt="Floating lighting cube">
+</div>
+
+- [My Code](https://github.com/Alicelspires/30DaysOfCSS/tree/main/30-FloatingLightingCube)
+
+### What I learned:
+
+- @keyframes
+- Functions like var() and calc() features
+- Transform properties such as rotate() and translate()
+- Tranform-style: preserve-3d;
+- ::before
+- filter blur()
+
+<br>
