@@ -573,3 +573,9 @@ n°  | Challenges
 - filter blur()
 
 <br>
+
+<div align="center">
+  
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Alicelspires.30DaysOfCSS&left_color=grey&right_color=black&left_text=Visitors)
+
+</div> 
